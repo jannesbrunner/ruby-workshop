@@ -52,14 +52,15 @@ you can check that via
 `$ ruby -v`
 
 ### Setup
-*Windows* 
+
+*Windows* <br> 
 On Windows machines, you can use RubyInstaller or project's like [cygwin](https://www.cygwin.com/).
 If you are running Windows 10, you can also use the [Bash on Ubuntu on Windows](https://msdn.microsoft.com/de-de/commandline/wsl/about).
 
-
-*Mac*
+*Mac*<br>
 On OS X machines, you can use third-party tools (rbenv and RVM).
-*Linux*
+
+*Linux*<br>
 On Linux/UNIX, you can use the package management system of your distribution or third-party tools (rbenv and RVM).
 
 Please check [https://www.ruby-lang.org/en/documentation/installation/](https://www.ruby-lang.org/en/documentation/installation/)
