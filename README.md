@@ -1,4 +1,5 @@
 # Ruby Workshop
+<img src="https://github.com/jannesbrunner/ruby-workshop/blob/master/ruby_workshop_logo.png">
 This repository is all about my first footsteps with the amazing programming language 
 [ruby](https://www.ruby-lang.org/en/) !
 
