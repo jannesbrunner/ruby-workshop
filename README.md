@@ -1,11 +1,11 @@
 # Ruby Workshop
 <img src="https://github.com/jannesbrunner/ruby-workshop/blob/master/ruby_workshop_logo.png">
-This repository is all about my first footsteps with the amazing programming language 
-[ruby](https://www.ruby-lang.org/en/) !
 
-You can find a more detailed descreption in each folder.
+This repository is all about my first footsteps with the amazing programming language <a href="https://www.ruby-lang.org/en/">Ruby</a>!
+
+You can find a more detailed descreption in each folder.<br>
 All the exercise in the folders are developed with the help of 
-[TDD]() if you can find a *test.rb file(s). 
+[TDD](https://en.wikipedia.org/wiki/Test-driven_development) if you can find a *test.rb file(s). 
 
 
 
