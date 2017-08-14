@@ -29,17 +29,21 @@ Further workshops will get added here accordingly.
 ### Playground
 The very first footsteps with ruby. Playing around with the syntax and 
 get comfy with ruby. 
+[=> Go To Playground](https://github.com/jannesbrunner/ruby-workshop/tree/master/0_playground)
 
 ### Navigator
 A little program that takes coordinates as input and navigates with those through a
-2D-room. Made with TDD.
+2D-room. Made with TDD. <br>
+[=> Go To Navigator](https://github.com/jannesbrunner/ruby-workshop/tree/master/1_navigator)
 
 ### Rectangle 
-A tiny code for descreping a rectangle and it's methods. Made with TDD.
+A tiny code for descreping a rectangle and it's methods. Made with TDD. <br>
+[=> Go To Rectangle](https://github.com/jannesbrunner/ruby-workshop/tree/master/2_rectangle)
 
 ### Binary Tree
 An implemantation of an ordered binary tree. Traversing via depth-first and 
-breadth-first algorithms. Made with TDD.
+breadth-first algorithms. Made with TDD. <br>
+[=> Go to Binary Tree](https://github.com/jannesbrunner/ruby-workshop/tree/master/3_binaryTree)
 
 ## How to use it
 
