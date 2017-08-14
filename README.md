@@ -8,7 +8,7 @@ All the exercise in the folders are developed with the help of
 
 
 
-## TOC (optional)
+## TOC 
 - [Exercises](#exercises)
     - [Playground](#playground)
     - [Navigator](#navigator)
