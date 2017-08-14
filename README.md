@@ -28,7 +28,7 @@ Further workshops will get added here accordingly.
 
 ### Playground
 The very first footsteps with ruby. Playing around with the syntax and 
-get comfy with ruby. 
+get comfy with ruby. <br>
 [=> Go To Playground](https://github.com/jannesbrunner/ruby-workshop/tree/master/0_playground)
 
 ### Navigator
