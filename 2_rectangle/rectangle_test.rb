@@ -1,5 +1,5 @@
-require "minitest/autorun"
-require_relative "rectangle"
+require 'minitest/autorun'
+require_relative 'rectangle'
 
 class RectangleTest < Minitest::Test
   def test_area

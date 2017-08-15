@@ -11,13 +11,13 @@ class Position
     magnitude = str.chars.drop(1).join.to_i
 
     case direction
-    when "N" then Position.new(x: 0, y: magnitude)
-    when "S" then Position.new(x: 0, y: -magnitude)
-    when "E" then Position.new(x: magnitude, y: 0)
-    when "W" then Position.new(x: -magnitude, y: 0)
+    when 'N' then Position.new(x: 0, y: magnitude)
+    when 'S' then Position.new(x: 0, y: -magnitude)
+    when 'E' then Position.new(x: magnitude, y: 0)
+    when 'W' then Position.new(x: -magnitude, y: 0)
     end
   end
- 
+
   def ==(other)
     x == other.x && y == other.y
   end
@@ -29,5 +29,4 @@ class Position
   def to_s
     "x=#{x}, y=#{y}"
   end
-
 end

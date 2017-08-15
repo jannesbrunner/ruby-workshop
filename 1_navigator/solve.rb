@@ -1,5 +1,5 @@
-require "./navigator"
-directions = File.read("./input.txt")
+require './navigator'
+directions = File.read('./input.txt')
 navigator = Navigator.new
 navigator.follow(directions)
 

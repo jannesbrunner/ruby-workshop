@@ -1,4 +1,4 @@
-require "./position"
+require './position'
 
 class Navigator
   attr_reader :position
@@ -17,7 +17,6 @@ class Navigator
   attr_writer :position
 
   def parse(directions)
-    directions.split(", ").map { |direction| Position.from_string(direction) }
+    directions.split(', ').map { |direction| Position.from_string(direction) }
   end
-
 end

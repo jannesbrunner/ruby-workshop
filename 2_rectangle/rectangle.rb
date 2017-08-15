@@ -3,8 +3,8 @@ class Rectangle
     @width = width
     @height = height
   end
-  
+
   def area
-    @width * @height  
+    @width * @height
   end
 end
