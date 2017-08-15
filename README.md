@@ -1,10 +1,11 @@
 # Ruby Workshop
-This repository is all about my first footsteps with the amazing programming language 
-[ruby](https://www.ruby-lang.org/en/) !
+<img src="https://github.com/jannesbrunner/ruby-workshop/blob/master/ruby_workshop_logo.png">
 
-You can find a more detailed descreption in each folder.
+This repository is all about my first footsteps with the amazing programming language <a href="https://www.ruby-lang.org/en/">Ruby</a>!
+
+You can find a more detailed descreption in each folder.<br>
 All the exercise in the folders are developed with the help of 
-[TDD]() if you can find a *test.rb file(s). 
+[TDD](https://en.wikipedia.org/wiki/Test-driven_development) if you can find a *test.rb file(s). 
 
 
 
@@ -27,18 +28,22 @@ Further workshops will get added here accordingly.
 
 ### Playground
 The very first footsteps with ruby. Playing around with the syntax and 
-get comfy with ruby. 
+get comfy with ruby. <br>
+[=> Go To Playground](https://github.com/jannesbrunner/ruby-workshop/tree/master/0_playground)
 
 ### Navigator
 A little program that takes coordinates as input and navigates with those through a
-2D-room. Made with TDD.
+2D-room. Made with TDD. <br>
+[=> Go To Navigator](https://github.com/jannesbrunner/ruby-workshop/tree/master/1_navigator)
 
 ### Rectangle 
-A tiny code for descreping a rectangle and it's methods. Made with TDD.
+A tiny code for descreping a rectangle and it's methods. Made with TDD. <br>
+[=> Go To Rectangle](https://github.com/jannesbrunner/ruby-workshop/tree/master/2_rectangle)
 
 ### Binary Tree
 An implemantation of an ordered binary tree. Traversing via depth-first and 
-breadth-first algorithms. Made with TDD.
+breadth-first algorithms. Made with TDD. <br>
+[=> Go to Binary Tree](https://github.com/jannesbrunner/ruby-workshop/tree/master/3_binaryTree)
 
 ## How to use it
 
