@@ -4,7 +4,9 @@ require_relative "money"
 class MoneyTest < Minitest::Test
 
   def setup
-    Money.set_conversion_rate("EUR", "USD" => 1.11)
+    Money.set_conversion_rate("EUR",
+                              "USD" => 1.11,
+                              "SEK" => 10)
   end
 
 
@@ -21,7 +23,11 @@ class MoneyTest < Minitest::Test
   end
 
   def test_conversions
-    assert_equal Money.new(5, "EUR"), Money.new(5.55,"USD")
+    assert_equal Money.new(5, "EUR"), Money.new(5, "EUR").convert_to("EUR")
+    assert_equal Money.new(5.55, "USD"), Money.new(5, "EUR").convert_to("USD")
+    assert_equal Money.new(5, "EUR"), Money.new(5.55, "USD").convert_to("EUR")
+    assert_equal Money.new(50, "SEK"), Money.new(5, "EUR").convert_to("SEK")
+    assert_equal Money.new(5.55, "USD"), Money.new(50, "SEK").convert_to("USD")
   end
 
 
