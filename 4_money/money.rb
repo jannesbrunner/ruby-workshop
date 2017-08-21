@@ -1,6 +1,7 @@
 class Money
 
   attr_reader :amount, :currency
+  protected :amount, :currency
 
   def initialize(amount, currency)
     @amount = amount
@@ -8,7 +9,14 @@ class Money
   end
 
   def ==(other)
-    amount == other.amount
+    return false if other.nil?
+    amount == other.amount && currency == other.currency
+  end
+
+
+
+  def inspect
+    "#{amount} #{currency}"
   end
 
 
