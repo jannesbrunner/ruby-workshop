@@ -1,4 +1,5 @@
 require "minitest/autorun"
+require_relative "money"
 
 class MoneyTest < Minitest::Test
   def test_equality
