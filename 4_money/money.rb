@@ -3,13 +3,15 @@ class Money
   attr_reader :amount, :currency
   protected :amount, :currency
 
+  DECIMAL_PRECISION = 2
+
   def initialize(amount, currency)
-    @amount = amount
+    @amount = amount.round(DECIMAL_PRECISION)
     @currency = currency
   end
 
   def ==(other)
-    return false if other.nil?
+    return false unless other.kind_of?(self.class)
     amount == other.amount && currency == other.currency
   end
 
