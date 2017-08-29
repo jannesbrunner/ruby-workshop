@@ -45,6 +45,10 @@ An implemantation of an ordered binary tree. Traversing via depth-first and
 breadth-first algorithms. Made with TDD. <br>
 [=> Go to Binary Tree](https://github.com/jannesbrunner/ruby-workshop/tree/master/3_binaryTree)
 
+## Money
+Money implemented via an money object that offers simple currency conversion. Made with TDD. <br>
+[=> Go to Money](https://github.com/jannesbrunner/ruby-workshop/tree/master/4_money)
+
 ## How to use it
 
 ### Prerequisites
